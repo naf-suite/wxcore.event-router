@@ -6,7 +6,7 @@ module.exports = () => {
   // add your config here
   config.cluster = {
     listen: {
-      port: 7002,
+      port: 7003,
     },
   };
 
@@ -17,10 +17,9 @@ module.exports = () => {
 
   config.amqp = {
     client: {
-      hostname: 'oa.chinahuian.cn',
-      username: 'dyg',
-      password: 'dyg123',
-      vhost: 'demo',
+      hostname: '192.168.1.190',
+      username: 'weixin',
+      password: 'weixin123',
     },
     app: true,
     agent: true,
