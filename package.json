@@ -6,6 +6,7 @@
   "dependencies": {
     "amqplib": "^0.5.2",
     "egg": "^2.5.0",
+    "egg-scripts": "^2.5.1",
     "egg-naf-amqp": "^0.0.11",
     "naf-weixin": "^0.0.4"
   },
