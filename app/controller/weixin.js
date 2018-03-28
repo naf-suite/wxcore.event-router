@@ -3,7 +3,7 @@
 const Controller = require('egg').Controller;
 // const moment = require('moment');
 const wxutil = require('naf-weixin').MessageUtil;
-require('egg-naf-amqp');// for index.d.ts
+require('egg-naf-amqp'); // for index.d.ts
 
 class WeixinController extends Controller {
   async verify() {
